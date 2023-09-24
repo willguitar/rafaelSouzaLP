@@ -132,6 +132,21 @@ h2 {
 
 }
 
+/* Estilo para o ícone do WhatsApp fixo */
+.whatsapp-fixo {
+    position: fixed;
+    bottom: 20px; /* Distância do rodapé */
+    right: 20px; /* Distância da borda direita */
+    z-index: 1000; /* Certifique-se de que ele esteja acima de outros elementos */
+}
+
+.whatsapp-fixo img {
+    width: 60px; /* Largura do ícone do WhatsApp */
+    height: auto; /* Altura ajustável para manter a proporção */
+    cursor: pointer; /* Altera o cursor para indicar que é clicável */
+}
+
+
 
 
 @keyframes highlight {
