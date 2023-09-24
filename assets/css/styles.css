@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+body {
+    font-family: 'Montserrat', Arial, sans-serif; /* Defina 'Montserrat' como a primeira escolha */
+    background-image: url('../images/insta\ bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    
+}
+header {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 900;
+}
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff; /* Preto */
+    border-radius: 5px;
+}
+.cta-button {
+    display: inline-block;
+    background-color: #ff6600; /* Cor de destaque */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Rajdhani';
+    font-size: 20px;
+}
+.with-bg-image {
+    background-image: url('../images/palhetada-alternada.png');
+    background-size: 300px; /* Largura x Altura */
+    background-repeat: no-repeat;
+    color: transparent;
+    text-align: center;
+    background-position: center center;
+    height: 100px;
+    /* Outros estilos do h1 podem ser adicionados aqui */
+}
+
+.section1 {
+    margin: 0 auto;
+    background-color: #000000; /* Cor de destaque */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.highlight-text {
+    display: inline-block;
+    font-size: 25px;
+    color: #333;
+    position: relative;
+    overflow: hidden;
+    animation: highlight 2s forwards ease-in-out;
+}
+
+.container-promo {
+    background-color: white;
+    border-radius: 20px;
+    width: 450px;
+    height:315px;
+    margin: 0 auto;
+    padding: 5px;
+    padding-top: 40px;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.2);
+}
+
+.container-promo p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.video-container {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container-promo #title {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 700;
+
+}
+
+.container-promo #textpromo1 {
+    font-size: 15px;
+    color: #333;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.container-promo #textpromo2 {
+    font-size: 12px;
+    color: #333;
+    font-weight: normal;
+}
+
+.container-promo > #textpromo2 > span {
+    font-size: 15px;
+    color: #333;
+    font-weight: 900;
+
+}
+
+.container-promo #textpromo3 {
+    font-size: 50px;
+    color: #027a40;
+    font-family: 'Rajdhani';
+
+}
+
+.container-promo #textpromo4 {
+    font-size: 12px;
+    color: #333;
+    font-weight: 900;
+
+}
+
+
+
+@keyframes highlight {
+    0% {
+        color: #333;
+        transform: scale(1);
+    }
+    100% {
+        color: #fff; /* Cor branca */
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .section1 {
+        flex-direction: column; /* Muda para layout de coluna */
+        align-items: center; /* Centraliza verticalmente */
+    }
+}
+
+
