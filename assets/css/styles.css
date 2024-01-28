@@ -146,6 +146,14 @@ h2 {
     cursor: pointer; /* Altera o cursor para indicar que é clicável */
 }
 
+footer {background-color: black;
+height: 100%;}
+
+footer .container {
+    text-align: center;
+
+}
+
 
 
 
