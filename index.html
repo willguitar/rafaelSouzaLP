@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso: Dominando a Palhetada Alternada</title>
     <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+    <script type="text/javascript">
+        function importHotmart(){ 
+             var imported = document.createElement('script'); 
+             imported.src = 'https://static.hotmart.com/checkout/widget.min.js'; 
+             document.head.appendChild(imported); 
+            var link = document.createElement('link'); 
+            link.rel = 'stylesheet'; 
+            link.type = 'text/css'; 
+            link.href = 'https://static.hotmart.com/css/hotmart-fb.min.css'; 
+            document.head.appendChild(link);	} 
+         importHotmart(); 
+     </script> 
 </head>
 <body>
     <header>
@@ -22,7 +34,7 @@
             <p id="textpromo3">R$ 197</p>
             <p id="textpromo4">DESCONTO DE PRÉ VENDA</p>
             <p id="textpromo4">7 DIAS DE GARANTIA</p>
-            <p><a class="cta-button" href="#">BORA! VOU ENTRAR</a></p>
+            <a onclick="return false;" href="https://pay.hotmart.com/G87568157T?checkoutMode=2" class="hotmart-fb hotmart__button-checkout">BORA! VOU ENTRAR</a>
         </div>
     </div>
     <section id="faq" class="container">
