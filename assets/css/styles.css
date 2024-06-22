@@ -57,6 +57,32 @@ h2 {
     padding: 20px;
 }
 
+.modulos {
+    margin: 0 auto;
+    background-color: #ffffff;
+    color: #333333;
+    padding: 20px;
+}
+
+.modulo {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.modulo h3 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color:#3b0065;
+}
+
+.modulo p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
 
 .highlight-text {
     display: inline-block;
