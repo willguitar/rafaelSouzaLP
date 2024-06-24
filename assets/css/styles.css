@@ -146,9 +146,9 @@ h2 {
 
 .container-promo #textpromo3 {
     font-size: 50px;
-    color: #027a40;
-    font-family: 'Rajdhani';
-
+    color: #25981b;
+    font-family: 'Rajdhani', sans-serif;
+    text-shadow: 2px 2px 4px rgba(158, 187, 153, 0.5); /* Sombra na fonte */
 }
 
 .container-promo #textpromo4 {
